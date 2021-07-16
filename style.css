@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+::selection {
+    color: #272822;
+    background: #f04242;
+}
+  /* Header section starts*/
+  .header {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #31353F;
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: .6px;
+  }
+  
+  .header a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #f04242;
+    padding: 5px;
+    transition: color .2s;
+  }
+  
+  .header i{
+    font-size: 18px;
+  }
+  
+  nav {
+    flex: 1;
+    text-align: right;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .header nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #f04242;
+    transition: color .2s;
+  }
+
+  #copymsg{
+    display: none;
+    color: #f04242;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .header a:hover {
+    cursor: pointer;
+    color: #F9F9F2;
+  }
+  /* Header section ends*/
+  
+  /* code area section starts */
+  .codearea{
+    background-color: #272822;
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .codearea .textarea {
+    width: 98vw;
+    height: 90vh;
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: Hack, monospace; 
+    resize: none;
+    outline: none;
+    border: 0px;
+    background-color: #272822;
+    color: #F9F9F2;
+    caret-color: #f04242;
+    font-weight: 600;
+  }
+  /* code area section ends */

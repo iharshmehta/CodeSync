@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Code Sync</title>
+  <!-- Style Sheet -->
+  <link rel="stylesheet" href="style.css">
+  <!-- font style - 'hack' -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css">
+  <!-- font style - 'ubuntu' -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <!-- Header Section Starts -->
+  <div class="header">
+    <a href="">Code <i class="fa fa-refresh"></i> Sync</a>
+    <!-- <a href="">Code:Sync</a> -->
+    <nav>
+      <ul>
+        <span id="copymsg">URL copied!</span>
+        <li><a title="Click here to copy the URL!" onclick="copyToClipboard()">Share your code!</a></li>
+      </ul>
+    </nav>
+   </div>
+  <!-- Header Section Ends -->
+
+  <!--Body section starts-->
+  <div class="codearea">
+    <textarea class="textarea" id="textbox" placeholder="write your code here and share it to your code buddy!" autofocus spellcheck="false"></textarea>
+  </div>
+  <!--Body section ends-->
+  
+  <!-- Java Script -->
+  <script src="./app.js"></script>
+  
+  </body>
+</html>

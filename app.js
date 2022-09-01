@@ -8,7 +8,7 @@ if (!roomId) {
 }
 
 //Get WebSocket APIs
-const wsurl = `wss://demo.piesocket.com/v3/${roomId}?api_key=VCXCEuvhGcBDP7XhiJJUDvR1e1D3eiVjgZ9VRiaV`;
+const wsurl = `wss://s4288.nyc3.piesocket.com/v3/${roomId}?api_key=g5pOYg8UbH9UDdzTBoI4iHSXpPg2EsS6RCxUwO1p&notify_self`;
 
 const socket = new WebSocket(wsurl);
 
